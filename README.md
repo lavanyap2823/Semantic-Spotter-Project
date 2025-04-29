@@ -10,11 +10,7 @@ using  [LangChain](https://python.langchain.com/docs/introduction/).
 The goal of the project is to build a robust generative search system capable of effectively and accurately
 answering questions from a bunch of policy documents.
 
-## 3. Document
-
-1. The policy documents can be found [here](./Policy+Documents)
-
-## 4. Approach
+## 3. Approach
 
 LangChain is a framework that simplifies the development of LLM applications LangChain offers a suite of tools,
 components, and interfaces that simplify the construction of LLM-centric applications. LangChain enables developers to
@@ -102,12 +98,12 @@ The LangChain framework revolves around the following building blocks:
   or by combining chains with other components. We are using pulling prompt <b>rlm/rag-promp</b> from langchain hub to
   use in RAG chain.
 
-## 6. System Architecture
+## 4. System Architecture
 
 ![](./images/arch1.png)
 ![](./images/arch2.png)
 
-## 7. Prerequisites
+## 5. Prerequisites
 
 - Python 3.7+
 - langchain 0.3.13
@@ -115,12 +111,12 @@ The LangChain framework revolves around the following building blocks:
   the
   OpenAI API.
 
-## 8. Running
+## 6. Running
 
 - Clone the github repository
   ```shell
-  $ git clone https://github.com/SanjayaKumarSahoo/semantic-spotter-project.git
+  $ git clone https://github.com/lavanyap2823/Semantic-Spotter-Project.git
   ```
 - Open
-  the [notebook](https://github.com/SanjayaKumarSahoo/semantic-spotter-project/blob/main/semantic-spotter-langchain-notebook.ipynb)
+  the [notebook](https://github.com/lavanyap2823/Semantic-spotter-project/blob/main/semantic-spotter-langchain.ipynb)
   in jupyter and run all cells.
